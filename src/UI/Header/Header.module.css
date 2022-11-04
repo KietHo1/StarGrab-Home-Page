@@ -1,0 +1,56 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffff66;
+  padding: 0 10%;
+}
+
+.bar_left,
+.bar_right,
+.bar {
+  display: flex;
+  align-items: center;
+}
+
+.bar_left {
+  padding-right: 50px;
+}
+
+.logo {
+  width: 100px;
+  margin-left: -30px;
+  margin-right: 10px;
+}
+
+.logo1,
+.logo2 {
+  width: 20px;
+  margin-right: 2px;
+  margin-left: 20px;
+}
+
+.contact,
+.telephone {
+  display: flex;
+  align-items: center;
+}
+
+.hotline,
+.login {
+  font-size: 15px;
+}
+
+.bar_right {
+  padding-right: 10px;
+}
+
+.div1,
+.div2 {
+  margin-right: 10px;
+}
+
+.login {
+}
