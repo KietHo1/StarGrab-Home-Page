@@ -1,6 +1,73 @@
-.body {
-  color: #484848;
+.footer {
+  background-color: rgb(243, 243, 243);
+  font-size: -apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC,
+    Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 14px;
 }
 
-.bar {
+.bar1,
+.bar2,
+.bar3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.titleNews,
+.titleRoute,
+.titleLimousine,
+.titleStation,
+.titleGarage,
+.titleAbout,
+.titleSupport,
+.titleCertified,
+.titleDownload,
+.titleLicense {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.Route,
+.Limousine,
+.Garage,
+.Station1,
+.Station2 {
+  padding-left: 40px;
+}
+
+.bar2 {
+  margin-left: -80px;
+}
+
+.bar1 {
+  margin-left: 50px;
+}
+
+.logo5 {
+  width: 120px;
+}
+.logo6 {
+  width: 170px;
+  height: 80px;
+}
+
+.Certified {
+  display: block;
+  justify-content: center;
+}
+
+.bar3 {
+  margin-left: 50px;
+}
+
+.bar4 {
+  background-color: white;
+  text-align: center;
+}
+
+.div1,
+.div2,
+.div3 {
+  background-color: white;
 }
