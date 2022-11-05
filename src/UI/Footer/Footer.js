@@ -155,7 +155,7 @@ function Footer() {
             <br />
             <div>Hướng dẫn thanh toán</div>
             <br />
-            <div>Quy chế GrabStar.com</div>
+            <div>Quy chế StarGrab.com</div>
             <br />
             <div>Chính sách bảo mật thông tin</div>
             <br />
