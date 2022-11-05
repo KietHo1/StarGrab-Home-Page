@@ -29,7 +29,10 @@
 }
 .logoOutstanding1,
 .logoOutstanding2,
-.logoOutstanding3 {
+.logoOutstanding3,
+.logoPartner1,
+.logoPartner2,
+.logoPartner3 {
   width: 200px;
   height: 100px;
 }
@@ -42,12 +45,14 @@
 }
 
 .partFavorite,
-.partOutstanding {
+.partOutstanding,
+.partPartner {
   display: flex;
 }
 
 .Favorite,
-.Outstanding {
+.Outstanding,
+.Partner {
   margin-left: 120px;
 }
 
@@ -55,7 +60,9 @@
 .Favorite3,
 .Favorite4,
 .Outstanding2,
-.Outstanding3 {
+.Outstanding3,
+.Partner2,
+.Partner3 {
   padding-left: 10px;
 }
 
@@ -101,7 +108,10 @@
 
 .titleOutstanding1,
 .titleOutstanding2,
-.titleOutstanding3 {
+.titleOutstanding3,
+.titlePartner1,
+.titlePartner2,
+.titlePartner3 {
   justify-content: center;
   text-align: center;
   font-weight: bold;

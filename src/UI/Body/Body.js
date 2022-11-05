@@ -134,7 +134,63 @@ function Body() {
           </div>
         </div>
         <br />
-        <div className={classes.bar3}></div>
+        <div className={classes.bar3}>
+          <div className={classes.Partner}>
+            <div className={classes.titlePartner}>
+              Ưu đãi từ đối tác của StarGrab
+            </div>
+            <br />
+            <div className={classes.partPartner}>
+              <div className={classes.Partner1}>
+                <div>
+                  <img
+                    className={classes.logoPartner1}
+                    src={require("../../image/Partner1.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themePartner1}>
+                  <div className={classes.titlePartner1}>
+                    <div>Giảm 10% tối đa 30K khi</div>
+                    <div>thanh toán tại ví VNPay</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Partner2}>
+                <div>
+                  <img
+                    className={classes.logoPartner2}
+                    src={require("../../image/Partner2.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themePartner2}>
+                  <div className={classes.titlePartner2}>
+                    <div>Giảm 50K cho đơn 250K khi</div>
+                    <div>thanh toán bằng thẻ tín dụng</div>
+                    <div>VPBank</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Partner3}>
+                <div>
+                  <img
+                    className={classes.logoPartner3}
+                    src={require("../../image/Partner3.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themePartner3}>
+                  <div className={classes.titlePartner3}>
+                    <div>Nhận ưu đãi StarGrab lên đến</div>
+                    <div>100K khi đăng ký mở tài</div>
+                    <div>khoản OCB OMNI</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
         <div className={classes.bar4}></div>
         <br />
