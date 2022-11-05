@@ -32,7 +32,10 @@
 .Limousine,
 .Garage,
 .Station1,
-.Station2 {
+.Station2,
+.Download,
+.Support,
+.Certified {
   padding-left: 40px;
 }
 
