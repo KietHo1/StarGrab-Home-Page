@@ -141,7 +141,7 @@ function Footer() {
             <br />
             <div>Phần mềm đại lý</div>
             <br />
-            <div>Giới Thiệu GrabStar.com</div>
+            <div>Giới Thiệu StarGrab.com</div>
             <br />
             <div>Tuyển dụng</div>
             <br />
@@ -197,7 +197,7 @@ function Footer() {
           </div>
 
           <div className={classes.Download}>
-            <div className={classes.titleDownload}>Tải ứng dụng GrabStar</div>
+            <div className={classes.titleDownload}>Tải ứng dụng StarGrab</div>
             <img
               className={classes.logo5}
               src={require("../../image/appstore.png")}
@@ -219,7 +219,7 @@ function Footer() {
         <div className={classes.bar4}>
           <div className={classes.License}>
             <div className={classes.titleLicense}>
-              Công ty TNHH Thương Mại Dịch Vụ GrabStar
+              Công ty TNHH Thương Mại Dịch Vụ StarGrab
             </div>
             <div>
               Địa chỉ đăng ký kinh doanh: 8C Chữ Đồng Tử, Phường 7, Quận Tân
@@ -233,7 +233,7 @@ function Footer() {
               Giấy chứng nhận ĐKKD số 0315133726 do Sở KH và ĐT TP. Hồ Chí Minh
               cấp lần đầu ngày 27/6/2018
             </div>
-            <div>Bản quyền © 2022 thuộc về GrabStar.Com</div>
+            <div>Bản quyền © 2022 thuộc về StarGrab.Com</div>
           </div>
         </div>
       </div>
