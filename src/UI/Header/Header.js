@@ -11,7 +11,7 @@ function Header() {
               src={require("../../image/logo.png")}
               alt=""
             />
-            <div>StarGrab</div>
+            <div className={classes.StarGrab}>StarGrab</div>
           </div>
           <div className={classes.bar_right}>
             <div className={classes.div1}>Thuê xe</div>

@@ -4,8 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ffff66;
+  background-color: white;
   padding: 0 10%;
+  font-size: 15px;
 }
 
 .bar_left,
@@ -23,6 +24,7 @@
   width: 100px;
   margin-left: -30px;
   margin-right: 10px;
+  color: rgb(0, 0, 255);
 }
 
 .logo1,
@@ -36,6 +38,7 @@
 .telephone {
   display: flex;
   align-items: center;
+  padding-right: 30px;
 }
 
 .hotline,
@@ -52,5 +55,19 @@
   margin-right: 10px;
 }
 
-.login {
+.contact {
+  border: 1px solid rgb(102, 255, 255);
+  background-color: rgb(102, 255, 255);
+  margin-left: 10px;
+}
+
+.telephone {
+  border: 1px solid rgb(102, 255, 102);
+  background-color: rgb(102, 255, 102);
+  margin-left: 10px;
+}
+
+.StarGrab {
+  font-size: 30px;
+  color: rgb(0, 0, 255);
 }
