@@ -27,6 +27,12 @@
   width: 150px;
   height: 100px;
 }
+.logoOutstanding1,
+.logoOutstanding2,
+.logoOutstanding3 {
+  width: 200px;
+  height: 100px;
+}
 
 .discountFavorite1,
 .discountFavorite2,
@@ -35,17 +41,21 @@
   display: flex;
 }
 
-.partFavorite {
+.partFavorite,
+.partOutstanding {
   display: flex;
 }
 
-.Favorite {
+.Favorite,
+.Outstanding {
   margin-left: 120px;
 }
 
 .Favorite2,
 .Favorite3,
-.Favorite4 {
+.Favorite4,
+.Outstanding2,
+.Outstanding3 {
   padding-left: 10px;
 }
 
@@ -81,4 +91,18 @@
   color: white;
   justify-content: center;
   text-align: center;
+}
+
+.costFavorite1,
+.costFavorite2,
+.costFavorite3 {
+  text-decoration-line: line-through;
+}
+
+.titleOutstanding1,
+.titleOutstanding2,
+.titleOutstanding3 {
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
 }

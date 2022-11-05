@@ -82,7 +82,57 @@ function Body() {
           </div>
         </div>
         <br />
-        <div className={classes.bar2}></div>
+        <div className={classes.bar2}>
+          <div className={classes.Outstanding}>
+            <div className={classes.titleOutstanding}>Ưu đãi nổi bật</div>
+            <br />
+            <div className={classes.partOutstanding}>
+              <div className={classes.Outstanding1}>
+                <div>
+                  <img
+                    className={classes.logoOutstanding1}
+                    src={require("../../image/Outstanding1.jpg")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeOutstanding1}>
+                  <div className={classes.titleOutstanding1}>
+                    Chọn Vé Xe Rẻ, về ngay với mẹ
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Outstanding2}>
+                <div>
+                  <img
+                    className={classes.logoOutstanding2}
+                    src={require("../../image/Outstanding2.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeOutstanding2}>
+                  <div className={classes.titleOutstanding2}>
+                    <div>Tổng hợp chương trình khuyến</div>
+                    <div>mãi trong tháng</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Outstanding3}>
+                <div>
+                  <img
+                    className={classes.logoOutstanding3}
+                    src={require("../../image/Outstanding3.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeOutstanding3}>
+                  <div className={classes.titleOutstanding3}>
+                    Ưu đãi bất ngờ khi đặt StarGrab
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
         <div className={classes.bar3}></div>
         <br />
