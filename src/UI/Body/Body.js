@@ -3,6 +3,13 @@ function Body() {
   return (
     <main>
       <div className={classes.body}>
+        <div className={classes.Background}>
+          <img
+            className={classes.logoBackground}
+            src={require("../../image/background.jpg")}
+            alt=""
+          />
+        </div>
         <div className={classes.bar1}>
           <div className={classes.Favorite}>
             <div className={classes.titleFavorite}>Tuyến đường phổ biến</div>
@@ -425,9 +432,93 @@ function Body() {
           </div>
         </div>
         <br />
-        <div className={classes.bar8}></div>
+        <div className={classes.bar8}>
+          <div className={classes.Mention}>
+            <div className={classes.titleMention}>
+              StarGrab đã được nhắc đến trên
+            </div>
+            <br />
+            <div className={classes.logoMention}>
+              <img
+                className={classes.logoMention1}
+                src={require("../../image/express.png")}
+                alt=""
+              />
+              <img
+                className={classes.logoMention2}
+                src={require("../../image/vtv.png")}
+                alt=""
+              />
+              <img
+                className={classes.logoMention3}
+                src={require("../../image/cesti.png")}
+                alt=""
+              />
+              <img
+                className={classes.logoMention4}
+                src={require("../../image/dantri.png")}
+                alt=""
+              />
+              <img
+                className={classes.logoMention5}
+                src={require("../../image/tuoitre.png")}
+                alt=""
+              />
+              <img
+                className={classes.logoMention6}
+                src={require("../../image/fbnc.png")}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
         <br />
-        <div className={classes.bar9}></div>
+        <div className={classes.bar9}>
+          <div className={classes.Station}>
+            <div className={classes.titleStation}>Bến xe khách</div>
+            <br />
+            <div className={classes.logoStation}>
+              <div className={classes.themeStation1}>
+                <img
+                  className={classes.logoStation1}
+                  src={require("../../image/bxmiendong.jpg")}
+                  alt=""
+                />
+                <div className={classes.titleMiendong}>Bến xe Miền Đông</div>
+              </div>
+
+              <div className={classes.themeStation2}>
+                <img
+                  className={classes.logoStation2}
+                  src={require("../../image/bxgialam.jpg")}
+                  alt=""
+                />
+                <div className={classes.titleGialam}>Bến xe Gia Lâm</div>
+              </div>
+
+              <div className={classes.themeStation3}>
+                <img
+                  className={classes.logoStation3}
+                  src={require("../../image/bxnuocngam.jpg")}
+                  alt=""
+                />
+                <div className={classes.titleNuocngam}>Bến xe Nước Ngầm</div>
+              </div>
+
+              <div className={classes.themeStation4}>
+                <img
+                  className={classes.logoStation4}
+                  src={require("../../image/bxmydinh.jpg")}
+                  alt=""
+                />
+                <div className={classes.titleMydinh}>Bến xe Mỹ Đình</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
       </div>
     </main>
   );

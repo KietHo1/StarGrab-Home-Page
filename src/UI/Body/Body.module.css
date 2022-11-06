@@ -15,8 +15,6 @@
 .bar7,
 .bar8,
 .bar9 {
-  display: flex;
-  justify-content: left;
   padding-top: 30px;
 }
 
@@ -51,6 +49,22 @@
   width: 20px;
   height: 20px;
 }
+.logoMention1,
+.logoMention2,
+.logoMention3,
+.logoMention4,
+.logoMention5,
+.logoMention6 {
+  height: 40px;
+  width: 100px;
+}
+.logoStation1,
+.logoStation2,
+.logoStation3,
+.logoStation4 {
+  height: 120px;
+  width: 200px;
+}
 
 .discountFavorite1,
 .discountFavorite2,
@@ -65,7 +79,8 @@
 .partService,
 .partGarage,
 .partNews,
-.partConnect {
+.partConnect,
+.logoStation {
   display: flex;
 }
 .themeConnect1,
@@ -87,7 +102,9 @@
 .Service,
 .Garage,
 .News,
-.Connect {
+.Connect,
+.Mention,
+.Station {
   margin-left: 120px;
 }
 
@@ -105,7 +122,18 @@
 .News2,
 .Connect2,
 .Connect3,
-.Connect4 {
+.Connect4,
+.logoMention2,
+.logoMention3,
+.logoMention4,
+.logoMention5,
+.logoMention6,
+.logoStation2,
+.logoStation3,
+.logoStation4,
+.titleGialam,
+.titleNuocngam,
+.titleMydinh {
   padding-left: 10px;
 }
 
@@ -181,4 +209,44 @@
 .logoConnect4 {
   padding-top: 15px;
   padding-right: 10px;
+}
+
+.titleFavorite,
+.titleOutstanding,
+.titlePartner,
+.titleService,
+.titleGarage,
+.titleNews,
+.titleConnect,
+.titleMention,
+.titleStation {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(72, 72, 72);
+}
+
+.themeStation1,
+.themeStation2,
+.themeStation3,
+.themeStation4 {
+  position: relative; /* text on the image */
+}
+
+.titleMiendong,
+.titleGialam,
+.titleNuocngam,
+.titleMydinh {
+  position: absolute; /* text on the image */
+  font-weight: bold;
+  font-size: 100%;
+  z-index: 1; /* text on the image */
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.logoBackground {
+  width: 950px;
+  height: 370px;
 }
