@@ -65,11 +65,20 @@
 .partService,
 .partGarage,
 .partNews,
+.partConnect {
+  display: flex;
+}
 .themeConnect1,
 .themeConnect2,
 .themeConnect3,
 .themeConnect4 {
   display: flex;
+  flex: 1 1 0%;
+  width: 170px;
+  height: 130px;
+  padding: 12px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 4px;
 }
 
 .Favorite,
@@ -77,7 +86,8 @@
 .Partner,
 .Service,
 .Garage,
-.News {
+.News,
+.Connect {
   margin-left: 120px;
 }
 
@@ -92,7 +102,10 @@
 .Service3,
 .Garage2,
 .Garage3,
-.News2 {
+.News2,
+.Connect2,
+.Connect3,
+.Connect4 {
   padding-left: 10px;
 }
 
@@ -153,4 +166,19 @@
   justify-content: center;
   text-align: center;
   font-weight: bold;
+}
+
+.pConnect1,
+.pConnect2,
+.pConnect3,
+.pConnect4 {
+  font-weight: bold;
+}
+
+.logoConnect1,
+.logoConnect2,
+.logoConnect3,
+.logoConnect4 {
+  padding-top: 15px;
+  padding-right: 10px;
 }

@@ -357,7 +357,9 @@ function Body() {
                     />
                   </div>
                   <div>
-                    <p>2000+ nhà xe chất lượng cao</p>
+                    <p className={classes.pConnect1}>
+                      2000+ nhà xe chất lượng cao
+                    </p>
                     <p>
                       5000+ tuyến đường trên toàn quốc, chủ động và đa dạng lựa
                       chọn.
@@ -376,7 +378,7 @@ function Body() {
                     />
                   </div>
                   <div>
-                    <p>Đặt vé dễ dàng</p>
+                    <p className={classes.pConnect2}>Đặt vé dễ dàng</p>
                     <p>
                       Đặt vé chỉ với 60s. Chọn xe yêu thích cực nhanh và thuận
                       tiện.
@@ -395,7 +397,7 @@ function Body() {
                     />
                   </div>
                   <div>
-                    <p>Đảm bảo có vé</p>
+                    <p className={classes.pConnect3}>Đảm bảo có vé</p>
                     <p>
                       Hoàn ngay 150% nếu không có vé, mang đến hành trình trọn
                       vẹn.
@@ -414,7 +416,7 @@ function Body() {
                     />
                   </div>
                   <div>
-                    <p>Nhiều ưu đãi</p>
+                    <p className={classes.pConnect4}>Nhiều ưu đãi</p>
                     <p>Hàng ngàn ưu đãi cực chất độc quyền tại VeXeRe.</p>
                   </div>
                 </div>
