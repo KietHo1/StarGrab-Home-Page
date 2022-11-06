@@ -32,9 +32,24 @@
 .logoOutstanding3,
 .logoPartner1,
 .logoPartner2,
-.logoPartner3 {
+.logoPartner3,
+.logoService1,
+.logoService2,
+.logoService3,
+.logoGarage1,
+.logoGarage2,
+.logoGarage3,
+.logoNews1,
+.logoNews2 {
   width: 200px;
   height: 100px;
+}
+.logoConnect1,
+.logoConnect2,
+.logoConnect3,
+.logoConnect4 {
+  width: 20px;
+  height: 20px;
 }
 
 .discountFavorite1,
@@ -46,13 +61,23 @@
 
 .partFavorite,
 .partOutstanding,
-.partPartner {
+.partPartner,
+.partService,
+.partGarage,
+.partNews,
+.themeConnect1,
+.themeConnect2,
+.themeConnect3,
+.themeConnect4 {
   display: flex;
 }
 
 .Favorite,
 .Outstanding,
-.Partner {
+.Partner,
+.Service,
+.Garage,
+.News {
   margin-left: 120px;
 }
 
@@ -62,7 +87,12 @@
 .Outstanding2,
 .Outstanding3,
 .Partner2,
-.Partner3 {
+.Partner3,
+.Service2,
+.Service3,
+.Garage2,
+.Garage3,
+.News2 {
   padding-left: 10px;
 }
 
@@ -111,7 +141,15 @@
 .titleOutstanding3,
 .titlePartner1,
 .titlePartner2,
-.titlePartner3 {
+.titlePartner3,
+.titleService1,
+.titleService2,
+.titleService3,
+.titleGarage1,
+.titleGarage2,
+.titleGarage3,
+.titleNews1,
+.titleNews2 {
   justify-content: center;
   text-align: center;
   font-weight: bold;

@@ -192,13 +192,236 @@ function Body() {
           </div>
         </div>
         <br />
-        <div className={classes.bar4}></div>
+        <div className={classes.bar4}>
+          <div className={classes.Service}>
+            <div className={classes.titleService}>Dịch vụ nổi bật</div>
+            <br />
+            <div className={classes.partService}>
+              <div className={classes.Service1}>
+                <div>
+                  <img
+                    className={classes.logoService1}
+                    src={require("../../image/Service1.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeService1}>
+                  <div className={classes.titleService1}>
+                    <div>Dịch vụ thuê xe tại StarGrab</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Service2}>
+                <div>
+                  <img
+                    className={classes.logoService2}
+                    src={require("../../image/Service2.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeService2}>
+                  <div className={classes.titleService2}>
+                    <div>Thuê xe máy Đà Lạt giá rẻ,</div>
+                    <div>chất lượng tại StarGrab</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Service3}>
+                <div>
+                  <img
+                    className={classes.logoService3}
+                    src={require("../../image/Service3.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeService3}>
+                  <div className={classes.titleService3}>
+                    <div>Vé xe buýt Hop On Hop Off ở</div>
+                    <div>Thành phố Hồ Chí Minh</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
-        <div className={classes.bar5}></div>
+        <div className={classes.bar5}>
+          <div className={classes.Garage}>
+            <div className={classes.titleGarage}>Dành cho Đối tác Nhà xe</div>
+            <br />
+            <div className={classes.partGarage}>
+              <div className={classes.Garage1}>
+                <div>
+                  <img
+                    className={classes.logoGarage1}
+                    src={require("../../image/Garage1.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeGarage1}>
+                  <div className={classes.titleGarage1}>
+                    <div>Lợi ích khi sử dụng vé điện tử</div>
+                    <div>cung cấp bởi StarGrab</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Garage2}>
+                <div>
+                  <img
+                    className={classes.logoGarage2}
+                    src={require("../../image/Garage2.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeGarage2}>
+                  <div className={classes.titleGarage2}>
+                    <div>Đăng ký mở bán vé tại</div>
+                    <div>StarGrab.com</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.Garage3}>
+                <div>
+                  <img
+                    className={classes.logoGarage3}
+                    src={require("../../image/Garage3.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeGarage3}>
+                  <div className={classes.titleGarage3}>
+                    <div>Ứng dụng Quản lý nhà xe của</div>
+                    <div>StarGrab</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
-        <div className={classes.bar6}></div>
+        <div className={classes.bar6}>
+          <div className={classes.News}>
+            <div className={classes.titleNews}>Tin tức</div>
+            <br />
+            <div className={classes.partNews}>
+              <div className={classes.News1}>
+                <div>
+                  <img
+                    className={classes.logoNews1}
+                    src={require("../../image/News1.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeNews1}>
+                  <div className={classes.titleNews1}>
+                    <div>Bộ Thông tin - Truyền thông</div>
+                    <div>công nhận StarGrab là Nền tảng</div>
+                    <div>số phục vụ người dân 2022</div>
+                  </div>
+                </div>
+              </div>
+              <div className={classes.News2}>
+                <div>
+                  <img
+                    className={classes.logoNews2}
+                    src={require("../../image/News2.png")}
+                    alt=""
+                  />
+                </div>
+                <div className={classes.themeNews2}>
+                  <div className={classes.titleNews2}>
+                    <div>[Phóng sự VTV9] Đặt vé xe</div>
+                    <div>khách nhanh chóng, tiện lợi,</div>
+                    <div>nhiều ưu đãi tại StarGrab</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
-        <div className={classes.bar7}></div>
+        <div className={classes.bar7}>
+          <div className={classes.Connect}>
+            <div className={classes.titleConnect}>
+              Nền tảng kết nối người dùng và nhà xe
+            </div>
+            <br />
+            <div className={classes.partConnect}>
+              <div className={classes.Connect1}>
+                <div className={classes.themeConnect1}>
+                  <div>
+                    <img
+                      className={classes.logoConnect1}
+                      src={require("../../image/Connect1.png")}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p>2000+ nhà xe chất lượng cao</p>
+                    <p>
+                      5000+ tuyến đường trên toàn quốc, chủ động và đa dạng lựa
+                      chọn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classes.Connect2}>
+                <div className={classes.themeConnect2}>
+                  <div>
+                    <img
+                      className={classes.logoConnect2}
+                      src={require("../../image/Connect2.png")}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p>Đặt vé dễ dàng</p>
+                    <p>
+                      Đặt vé chỉ với 60s. Chọn xe yêu thích cực nhanh và thuận
+                      tiện.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classes.Connect3}>
+                <div className={classes.themeConnect3}>
+                  <div>
+                    <img
+                      className={classes.logoConnect3}
+                      src={require("../../image/Connect3.png")}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p>Đảm bảo có vé</p>
+                    <p>
+                      Hoàn ngay 150% nếu không có vé, mang đến hành trình trọn
+                      vẹn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className={classes.Connect4}>
+                <div className={classes.themeConnect4}>
+                  <div>
+                    <img
+                      className={classes.logoConnect4}
+                      src={require("../../image/Connect4.png")}
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <p>Nhiều ưu đãi</p>
+                    <p>Hàng ngàn ưu đãi cực chất độc quyền tại VeXeRe.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <br />
         <div className={classes.bar8}></div>
         <br />
